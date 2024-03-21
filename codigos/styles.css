@@ -1,0 +1,1234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section{
+    background-image:url(https://i.imgur.com/WwhwOd8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+section nav.baner{
+    background-image:url(https://i.imgur.com/WwhwOd8.jpeg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #781712 ;
+    position: fixed;
+    z-index: 100;
+}
+
+section .barra-lateral .body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #781712;
+    color: #eaeaea;
+}
+
+section .barra-lateral{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    width: 60px;
+    height: 100%;
+    padding: 40px 10px 30px 10px;
+    background: linear-gradient(68.15deg, #e4a2a2 16.62%, #781712 85.61%);
+    border-right: 1px solid #cb9696;
+    transition: all 0.8s;
+    overflow: hidden;
+}
+
+section .barra-lateral:hover{
+    width: 180px;
+
+}
+
+section .perfil-img img{
+    width: 35px;
+    margin-bottom: 12px;
+    min-height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.4s;
+    margin-left: 6px;
+}
+
+section .barra-lateral h1{
+    font-family: sans-serif;
+    color: #f1e6b3;
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+section .perfil-img img:hover{
+    transform: scale(1.5);
+}
+
+section .barra-lateral button{
+    height: 60px;
+    background-color: transparent;
+    border: 0;
+    font-family: sans-serif;
+    color: #f1e6b3;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+}
+
+section .barra-lateral button > span{
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 0 16px 0 12px;
+    border-radius: 24px;
+    line-height: 1;
+    transition: all 0.4s;
+}
+
+section .barra-lateral button:hover > span{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+section .barra-lateral button i{
+    position: relative;
+    text-decoration: none;
+    color: #f1e6b3;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+
+section .barra-lateral button span{
+    font-size: 12px;
+    color: #f1e6b3;
+}
+
+
+section .barra-lateral > nav{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+section .L0G0 img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+section ul{
+    list-style: none;
+}
+
+section ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section li a{
+    text-decoration: none;
+    color: #000;
+}
+
+section li a:hover{
+    color: #781712;
+}
+
+section .pesquisa{
+    position: relative;
+    top: 20px;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    background: #38354b;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+
+section .search-btn{
+    color: #f1e6b3;
+    float: right;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    border-radius: 50%;
+    background: #38354b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    text-decoration: none;
+    top: 50%;
+    transform: translateY(-17%)
+}
+
+section .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0px;
+}
+
+section .pesquisa:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+section .pesquisa:hover > .search-btn{
+    background: white;
+}
+
+section .logout a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px 15px;
+    background: #781712;
+    border: none;
+    margin-top: 5px;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+section ul li{
+    color: #eaeaea;
+}
+
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+}
+
+section .main h1{
+    position: relative;
+    font-size: 55px;
+    top: 80px;
+    left: 60px;
+}
+
+section .main h1 span{
+    color: #781712;
+}
+
+section .main p{
+    width: 650px;
+    text-align: left;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 60px;
+}
+
+section .main .main_tag .main_btn{
+    background: #781712;
+    padding: 10px 20px;
+    position: relative;
+    top: 170px;
+    left: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section .main .main_img img{
+    width: 600px;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+/*servicos*/
+
+.services{
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+
+}
+
+.services .services_box{
+    width: 95%;
+    margin-top: 140px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .services_box .services_card{
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0 0 8px #781712;
+    padding: 15px 10px;  
+}
+
+.services .services_box .services_card i{
+    color: #781712;
+    font-size: 45px;
+    margin-bottom: 15 px;
+    cursor: pointer;
+}
+
+.services .services_box .services_card h3{
+    margin-bottom: 10px;
+
+}
+
+/*Sobre*/
+
+.about {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about_image img {
+    width: 350px;
+    height: auto;
+}
+
+.about .about_tag h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: 35px;
+}
+
+.about .about_tag p {
+    line-height: 22px;
+    width: 650px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.about .about_tag .about_btn {
+    padding: 10px 20px;
+    background: #781712;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+/*Mangas*/
+
+.mangas{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+
+}
+
+.mangas h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.mangas .mangas_box{
+    width: 95%;
+    height: 70vh;
+    margin: 0 auto;
+    margin-left: 58px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.mangas .mangas_box .mangas_card{
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;   
+}
+
+.mangas .mangas_box .mangas_card:hover{
+    box-shadow: 0 0 5px #781712;
+}
+
+.mangas .mangas_box .mangas_card .mangas_img img{
+    width: 150px;
+
+}
+
+.mangas .mangas_box .mangas_card .mangas_tag h2{
+    margin: 6px;
+}
+
+.mangas .mangas_box .mangas_card .mangas_tag .escritor{
+    color: #919191;
+}
+
+.mangas .mangas_box .mangas_card .mangas_tag .categorias{
+    color: #781712;
+    margin-top: 8px;
+}
+
+.mangas .mangas_box .mangas_card .mangas_tag .preco_manga{
+    margin-top: 4px;
+    font-weight: bold;
+    margin-bottom: 15px;   
+}
+
+.mangas .mangas_box .mangas_card .mangas_tag .preco_manga sub{
+    font-weight: 100;
+    padding: 0 5px;
+}
+
+.mangas .mangas_box .mangas_card .mangas_tag .f_btn{
+    padding: 8px 20px;
+    border: 2px solid #781712;
+    text-decoration: none;
+    color: #000;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #781712;
+    border-radius: 10px;
+}
+
+/*novos*/
+
+.novos{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 35px;
+}
+
+.novos h1{
+    font-size: 45x;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.novos .novos_box{
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px 0; 
+}
+
+.novos .novos_box .novos_card{
+    width: 230px;
+    height: 330px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 12px;
+}
+
+.novos .novos_box .novos_card:hover{
+    box-shadow: 0 0 5px #781712;
+}
+
+.novos .novos_box .novos_card .novos_image{
+    width: 105px;
+    height: 205px;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.novos .novos_box .novos_card .novos_image img{
+    width: 90px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: .3s;
+}
+
+.novos .novos_box .novos_card:hover .novos_image img{
+    transform: scale(1.1);
+}
+
+.novos .novos_box .novos_card .novos_tag p{
+    font-family: queen of camelot;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.novos .novos_box .novos_card .novos_tag .novos_icon{
+    color: #781712;
+    margin-bottom: 12px;
+}
+
+.novos .novos_box .novos_card .novos_tag .novos_btn{
+    padding: 8px 20px;
+    border: 2px solid #781712;
+    text-decoration: none;
+    color: #000;
+}
+
+/*feedbacks*/
+
+.feedback{
+    width: 100%;
+    height: auto;
+}
+
+.feedback h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+.feedback .feedback_box{
+    width: 95%;
+    height: 50vh;
+    margin: 15px auto;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback .feedback_box .feedback_card{
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 0 8px #781712;
+    padding: 15px;
+    margin: 0 12px;
+}
+
+.feedback .feedback_box .feedback_card i{
+    float: right;
+    font-size: 120px;
+    position: relative;
+    bottom: 20px;
+    color: #eaeaea;
+}
+
+.feedback .feedback_box .feedback_card .card_top img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.feedback .feedback_box .feedback_card .card p{
+    margin: 10px 0 10px 0;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.feedback .feedback_box .feedback_card .card .feedback_icon i{
+    font-size: 16px;
+    float: left;
+    margin-top: 20px;
+    color: #781712;
+    padding: 0 1px;
+}
+
+/*Banner*/
+
+.banner{
+    width: 100%;
+    height: 50vh;
+    background-image: url(image/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .banner_btn{
+    padding: 8px 20px;
+    background: #781712;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    left: 7%;
+}
+
+/*Rodapé*/
+
+footer{
+    width: 100%;
+    background: #eaeaea;
+}
+
+footer .footer_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer_main .tag{
+    margin: 10px 0px;
+    margin-left: 35px;
+}
+
+footer .footer_main img{
+    width: 80px;
+    margin-bottom: 10px;   
+}
+
+footer .footer_main .tag p{
+    width: 250px;
+    line-height: 22px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+footer .footer_main .tag h1{
+    font-size: 25px;
+    margin: 25px 0;
+    color: #000;
+}
+
+footer .footer_main .tag a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer .footer_main .tag i{
+    margin-right: 10px;
+}
+
+footer .footer_main .tag .social_link i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .footer_main .tag .search_bar{
+    width: 230px;
+    height: 30px;
+    background: rgba(202, 202, 202);
+    border-radius: 25px;
+}
+
+footer .footer_main .tag .search_bar input{
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top: 17%;
+    left: 6%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: none;
+}
+
+footer .footer_main .tag .search_bar button{
+    padding: 7px 15px;
+    background: #781712;
+    border: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #000;
+}
+
+footer .end span{
+    color: #781712;
+    margin-left: 10px;
+
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Estilo para a seção principal */
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    /* Estilo para a barra de navegação */
+    section nav.baner {
+        background-color: #781712;
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        padding: 3.5px;
+        top: 0px;
+        position: fixed;
+    }
+    
+    section nav.baner ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    section nav.baner ul li {
+        margin: 0 10px;
+    }
+    
+    section nav.baner a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    /* Estilo para o logotipo */
+    .L0G0 img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Estilo para a barra lateral */
+    .sidebar {
+        background-color: #781712;
+        color: #fff;
+        padding: 10px;
+        position: relative;
+    }
+    
+    /* Estilo para os botões da barra lateral */
+    button.btn_icon_header {
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+        font-size: 10px;
+    }
+    
+
+    header.perfil-img {
+        text-align: center;
+    }
+    
+    header.perfil-img img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    
+    header.perfil-img h1 {
+        margin: 10px 0;
+    }
+    
+    /* Estilo para os botões de ícone */
+    button.btn_icon_header span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    
+    /* Estilo para o logado */
+    #logado {
+        font-weight: bold;
+    }
+    
+    /* Estilo para a lista de navegação */
+    nav.baner ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    nav.baner ul li {
+        margin: 0 10px;
+    }
+    
+    nav.baner a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    /* Estilo para a pesquisa */
+    div.pesquisa input.search-txt {
+        padding: 5px;
+        border: none;
+    }
+    
+    div.pesquisa a.search-btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+    }
+    
+    /* Estilo para o botão Sair */
+    div.logout .about_btn {
+        background-color: #d9534f;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    
+    /* Seção Principal */
+    section .main {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center; 
+        position: relative;
+        top: 10%;
+    }
+    
+    section .main h1 {
+        font-size: 45px; 
+        margin: 25px 0; 
+        top: 110px;
+        left: 30px;
+    
+    }
+    
+    section .main h1 span {
+        color: #781712;
+    }
+    
+    section .main p {
+        width: auto; 
+        left: 30px;
+        font-size: 15px;
+        text-align: center; 
+        line-height: 1.5;
+        margin: 0 10px; 
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #781712;
+    }
+    
+    section .main .main_tag .main_btn {
+        background: #781712;
+        padding: 10px 20px;
+        left: 30px;
+        color: #fff;
+        text-decoration: none;
+        margin-top: 20px; 
+    }
+    
+    section .main .main_img img {
+        width: 100%; 
+        max-height: 180px; 
+        margin-left: 30px;
+        margin-top: 220px;
+    }
+    
+    /* Serviços */
+    .services {
+        display: flex;
+        justify-content: center;
+        background-color: #f3efdd;
+        padding: 50px;
+    }
+    
+    .services_box {
+
+        max-width: 1200px;
+        flex-wrap: wrap;
+
+    }
+    .services_card {
+        text-align: center;
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    
+    .services_card i {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    
+    .services_card h3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    
+    /* Sobre */
+    .about {
+        flex-direction: column; 
+        margin-left: 30px;
+        text-align: center; 
+        padding: 10px; 
+    }
+
+    .about .about_image img {
+        width: 80%; 
+        max-width: 230px; 
+    }
+
+    .about .about_tag h1 {
+        font-size: 20px; 
+        margin-top: 35px;
+        bottom: 8px; 
+    }
+
+    .about .about_tag p {
+        width: 80%;
+        margin-left: 35px;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+    }
+
+    .about .about_tag .about_btn {
+        padding: 10px 20px;
+        background: #781712;
+        border: 2px solid #f1e6b3;
+        color: #fff;
+        text-decoration: none;
+        margin-top: 50px;
+    }
+
+    /*mangás*/
+
+    .mangas{
+        width: 100%;
+        height: 100vh;
+        padding: 70px 0;
+    
+    }
+
+    .mangas h1{
+        font-size: 45px;
+        margin-left: 50px;
+        bottom: 15px;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #fff;
+    }
+
+    .mangas .mangas_box{
+        width: 95%;
+        height: 70vh;
+        margin: 0 auto;
+        margin-left: 58px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    
+    .mangas .mangas_box .mangas_card{
+        width: 250px;
+        height: 410px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #781712;
+        background-color: #f5f7e8;
+        margin: 120px 20px;   
+    }
+
+    .mangas .mangas_box .mangas_card .mangas_tag .preco_manga{
+        margin-top: 4px;
+        font-weight: bold;
+        margin-bottom: 15px;   
+    }
+
+    .mangas .mangas_box .mangas_card .mangas_tag .f_btn{
+        padding: 5px 15px;
+        border: 1px solid #781712;
+        text-decoration: none;
+        color: #000;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+    }
+
+    ::-webkit-scrollbar{
+        width: 10px;
+        top: 40px;
+        height: 2px;
+    }
+    
+    ::-webkit-scrollbar-track{
+        box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        background: #781712;
+        border-radius: 20x;
+    }
+
+    /*novos*/
+
+    .novos{
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 35px;
+    }
+    
+    .novos h1{
+        font-size: 25px;
+        margin-left: 60px;
+        margin-top: 60px;
+        text-align: center;
+        margin-bottom: 25px;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #781712
+    }
+    
+    .novos .novos_box{
+        width: 95%;
+        height: 70vh;
+        margin: 0 auto;
+        margin-left: 58px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    
+    .novos .novos_box .novos_card{
+        width: 230px;
+        height: 330px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #919191;
+        background-color: rgb(253, 239, 159);
+        margin: 200px 20px;
+    }
+    
+    .novos .novos_box .novos_card:hover{
+        box-shadow: 0 0 5px #781712;
+    }
+    
+    .novos .novos_box .novos_card .novos_image{
+        width: 105px;
+        height: 205px;
+        margin: 0 auto;
+        cursor: pointer;
+        box-shadow: 0 0 8px rgba(0,0,0,0.5);
+        overflow: hidden;
+    }
+    
+    .novos .novos_box .novos_card .novos_image img{
+        width: 90px;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: .3s;
+    }
+    
+    .novos .novos_box .novos_card:hover .novos_image img{
+        transform: scale(1.1);
+    }
+    
+    .novos .novos_box .novos_card .novos_tag p{
+        font-family: queen of camelot;
+        font-size: 18px;
+        margin: 8px 0;
+    }
+    
+    .novos .novos_box .novos_card .novos_tag .novos_icon{
+        color: #781712;
+        margin-bottom: 12px;
+    }
+    
+    .novos .novos_box .novos_card .novos_tag .novos_btn{
+        padding: 8px 20px;
+        border: 2px solid #781712;
+        text-decoration: none;
+        color: #000;
+    }
+
+    /*feedback*/
+
+    .feedback{
+        width: 100%;
+        height: auto;
+    }
+    
+    .feedback h1{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    
+    .feedback .feedback_box{
+        width: 95%;
+        height: 70vh;
+        margin: 0 auto;
+        margin-left: 58px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    
+    .feedback .feedback_box .feedback_card{
+        width: 230px;
+        height: 330px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #919191;
+        background-color: rgb(255, 213, 213);
+        margin: 205px 12px;
+    }
+    
+    .feedback .feedback_box .feedback_card i{
+        float: right;
+        font-size: 80px;
+        position: relative;
+        bottom: 10px;
+        color: #eaeaea;
+    }
+    
+    .feedback .feedback_box .feedback_card .card_top img{
+        width: 80px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    
+    .feedback .feedback_box .feedback_card .card p{
+        margin: 10px 0 10px 0;
+        text-align: justify;
+        line-height: 22px;
+    }
+    
+    .feedback .feedback_box .feedback_card .card .feedback_icon i{
+        font-size: 16px;
+        float: left;
+        margin-top: 20px;
+        color: #781712;
+        padding: 0 1px;
+    }
+    
+    .banner{
+        width: 100%;
+        height: 50vh;
+        background-image: url(image/banner.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .banner .banner_btn{
+        padding: 8px 20px;
+        margin-left: 38px;
+        background: #781712;
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        top: 70%;
+        left: 7%;
+    }
+
+    footer{
+        width: 100%;
+        background: #f1e6b3
+    }
+    
+    footer .footer_main .tag{
+    margin: 10px 0px;
+    margin-left: 35px;
+    }
+
+    footer .footer_main img{
+    width: 40px;
+    margin-bottom: 10px;   
+    }
+
+    footer .footer_main .tag p{
+    position: relative;
+    left: 180x;
+    width: 300px;
+    line-height: 22px;
+    font-family: sans-serif;
+    text-align: justify;
+    }
+
+    footer .footer_main .tag h1{
+    font-size: 15px;
+    margin: 25px 0;
+    color: #000;
+    }
+
+    footer .footer_main .tag .search_bar{
+        position: absolute;
+        margin-top: 170px;
+        left: 260px;
+        width: 180px;
+        height: 25px;
+        background: rgba(202, 202, 202);
+        border-radius: 15px;
+    }
+    
+    footer .footer_main .tag .search_bar input{
+        width: 200px;
+        padding: 2px 0;
+        position: relative;
+        top: 17%;
+        left: 6%;
+        border: none;
+        outline: none;
+        font-size: 13px;
+        background: none;
+    }
+    
+    footer .footer_main .tag .search_bar button{
+        padding: 7px 8px;
+        background: #781712;
+        border: none;
+        margin-top: 15px;
+        border-radius: 25px;
+        color: #fff;
+        cursor: pointer;
+    }
+}

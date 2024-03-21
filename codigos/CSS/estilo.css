@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+body {
+	background-image: url("../IMAGENS/images.jpg");
+	color: black;
+	font-family: arial;
+	background-size: cover;
+}
+/*mudanças*/
+.inputbox {
+    position: relative;
+    margin: 30px auto;
+    width: 310px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #ffffff;
+}
+
+.inputbox input[type="text"],
+.inputbox input[type="email"],
+.inputbox input[type="password"] {
+    border-bottom: 2px solid #661b1b8e;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+    transform: translateY(10px);
+}
+
+.inputbox input:focus ~ label,
+.inputbox input:valid ~ label {
+    transform: translateY(-20px);
+    font-size: 0.8em;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+/*mudanças*/
+input {
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px auto; /* Adicionado 'auto' para alinhar ao centro */
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.10);
+    color: black;
+    outline: none;
+}
+
+
+
+div#corpo-form-index {
+	width: 420px;
+	margin: 150px auto 0px auto;
+	background-color: transparent;
+	padding-bottom: 20px;
+	border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.5);
+	backdrop-filter: blur(15px);
+    text-align: center; /* Adicionado para alinhar ao centro */
+}
+
+div#corpo-form-index h1 {
+	text-align: center;
+	padding: 20px;
+}
+@keyframes slide-up {
+    from {
+      transform: translateY(300px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  #corpo-form-index {
+    animation: slide-up 1s ease-out;
+  }
+
+div#corpo-form-cad {
+	width: 420px;
+	margin: 50px auto 0px auto; /* Valor negativo para margin-top */
+	background-color: transparent;
+	padding-bottom: 20px;
+	border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.5);
+	backdrop-filter: blur(15px);
+    text-align: center;
+}
+
+
+div#corpo-form-cad h1 {
+	text-align: center;
+	padding: 20px;
+}
+#corpo-form-cad {
+    animation: slide-up 1s ease-out;
+  }
+a {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+    border-radius: 40px;
+    background: rgb(151, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+	color: black;
+}
+
+:-moz-placeholder {
+	color: black;
+}
+
+::-moz-placeholder {
+	color: black;
+}
+
+:-ms-input-placeholder {
+	color: black;
+}
+
+div#msg-sucesso {
+	width: 420px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(50, 205, 50, 0.3);
+	border: 1px solid rgb(34, 139, 34);
+}
+
+div.msg-erro {
+	width: 420px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(250, 128, 114, 0.3);
+	border: 1px solid rgb(165, 42, 42);
+}
